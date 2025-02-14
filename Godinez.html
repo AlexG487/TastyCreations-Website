@@ -1,0 +1,415 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tasty Creations</title>
+    <style>
+        body {
+            background-color: #FFC0CB;
+            font-family: "Times New Roman", serif;
+            text-align: center; /* Centers all text in the body */
+            margin: 0;
+            padding: 0;
+        }
+
+        /* Container for centering logo */
+        .container {
+            margin-top: 5px;
+        }
+
+        .navbar {
+            font-size: 20px;
+            background-color: white;
+            padding-top: 20px;
+            height: 50px;
+        }
+
+        /* Navbar links */
+        .navbar a {
+            text-decoration: none;
+            color: black;
+            text-decoration: underline;
+            padding-right: 20px;
+            display: inline-block;
+        }
+
+        h1, h2, h3, h4 {
+            font-size: 30px;
+            margin: 0;
+        }
+
+        /* Smaller heading styling */
+        h2, h3 {
+            font-size: 30px;
+        }
+
+        /* Divider style */
+        hr {
+            width: 88%;
+            height: 5px;
+            margin: 20px auto;
+        }
+
+        /* Footer style */
+        #footer {
+            text-align: center;
+            padding: 10px;
+            font-size: 14px;
+            background-color:;
+        }
+    </style>
+</head>
+<body>
+    <!-- Logo -->
+    <div class="container">
+        <img src="logo.svg2.png" alt="Tasty Creations Logo">
+    </div>
+
+    <!-- Navigation Bar -->
+    <div class="navbar">
+        <a href="godinez.html" title="Go to Home Page">Home</a>
+        <a href="recipes.html.html" title="Go to Recipes Page">Recipes</a>
+        <a href="contact.html.html" title="Go to Contact Page">Contact</a>
+    </div>
+
+    <!-- Main Title -->
+    <h1>Tasty Creations</h1>
+<br>
+    <h2><i>Turning Simple Ingredients Into Amazing Dishes</i></h2>
+
+    <!-- Divider -->
+    <hr>
+
+    <!-- Introduction to Cooking Philosophy -->
+    <section id="philosophy">
+        <h2>Inspiration in the Kitchen</h2>
+        <p>Welcome to Tasty Creations! My mission is to show you how simple ingredients can be transformed into extraordinary meals. Whether you're a novice cook or an experienced chef, you can find inspiration here. Cooking isn’t just about following recipes, it’s about discovering your creativity in the kitchen. Let me show you how to make the most of what you already have!</p>
+    </section>
+
+    <!-- Cooking Made Simple -->
+    <section id="cooking-simple">
+        <h3>Cooking Made Simple</h3>
+        <p>Cooking doesn't have to be complicated! With just a few basic ingredients, you can create delicious, restaurant-quality meals.</p>
+        <em style="font-size:25px;">Here are some tips to get you started:</em>
+        <ul style="font-size:20px; text-align:center;">
+            <li>Use pantry staples like rice, canned tomatoes, or chili oil to create flavorful meals.</li>
+            <li>Learn how to season simply but effectively (try to smell your seasonings to see if you would like it in your dish).</li>
+            <li>Don't be afraid to experiment! Add a pinch of this or a dash of that to find your signature flavor.</li>
+            <li>Turn leftovers into something new; use your creative instincts to transform yesterday’s meal into today’s masterpiece.</li>
+        </ul>
+    </section>
+
+    <!-- Featured Inspiration: Barefoot Contessa Video -->
+    <section id="inspiration">
+        <h3>Get Inspired: Watch Barefoot Contessa</h3>
+        <p>One of my biggest inspirations in the kitchen is <em>Barefoot Contessa</em> (Ina Garten). Ina has always been a true inspiration to me. I vividly remember spending summers with my grandma, watching her cook on the Food Network Channel. Her warm personality and delicious recipes left a lasting impression on me.</p>
+
+        <h4>Skillet Roasted Lemon Chicken | Barefoot Contessa | Food Network</h4>
+
+        <!-- Video Embed -->
+        <iframe width="640" height="360" src="https://www.youtube.com/embed/cC6VvO5DK-o" title="Ina Garten's Skillet Roasted Lemon Chicken" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
+        <p><em>Here’s a video of her famous Skillet Roasted Lemon Chicken; one of my all-time favorite recipes. She created a deliciously simple yet flavorful dish with her Skillet Roasted Lemon Chicken. In this recipe, she expertly seasons bone-in, skin-on chicken with fresh lemon, garlic, and herbs, then sears it in a hot skillet to achieve crispy, golden skin. The chicken is then roasted in the oven with a squeeze of lemon and a drizzle of olive oil, resulting in juicy, tender meat with a bright, zesty flavor. This easy, one-pan dish is a perfect example of Ina’s ability to elevate simple ingredients into a stunning, comforting meal.</em></p>
+    </section>
+
+    <!-- Footer -->
+    <div id="footer">
+        Tasty Creations ©2025 All Rights Reserved
+    </div>
+</body>
+</html>
+
+<br>
+<br>
+<br>
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tasty Creations - Recipes</title>
+    <style>
+        body {
+            font-family: "Times New Roman", Times, serif;
+            background-color: #FFC0CB;
+            color: black;
+            margin: 0;
+            padding: 0;
+            text-align: center;
+        }
+
+        h1, h2 {
+            color: black;
+        }
+
+        p, ul {
+            font-size: 1.2rem;
+            line-height: 1.6;
+            margin: 20px auto;
+            width: 80%;
+        }
+
+        ul {
+            list-style-type: none;
+        }
+
+        #extraContent {
+            display: none; /* Initially hide the extra content */
+            margin-top: 20px;
+        }
+
+        .read-more-btn {
+            background-color: black;
+            color: white;
+            padding: 10px 20px;
+            border: none;
+            cursor: pointer;
+            font-size: 1.1rem;
+            margin-top: 20px;
+        }
+
+        .read-more-btn:hover {
+            background-color: #333;
+        }
+
+        .footer {
+            color: black;
+            padding: 10px;
+            position: fixed;
+            bottom: 0;
+            width: 100%;
+            text-align: center;
+            background-color: #FFC0CB;
+        }
+
+        .go-back-btn {
+            margin-top: 20px;
+            padding: 10px 20px;
+            background-color: white;
+            border: none;
+            border-radius: 5px;
+            font-size: 18px;
+        }
+
+        .go-back-btn a {
+            text-decoration: none;
+            color: black;
+        }
+
+        .logo {
+            width: 15%;
+            margin-top: 20px;
+        }
+    </style>
+</head>
+<body>
+
+    <!-- Go Back Button -->
+    <button class="go-back-btn">
+        <a href="file:///C:/Users/alexz/OneDrive/Desktop/website/godinez.html">Go Back</a>
+    </button>
+
+    <!-- Recipe 1: Yellow Rice with Chicken and Veggies -->
+    <h1>Yellow Rice with Chicken and Veggies</h1>
+    <img src="IMG_2761.jpg" alt="Yellow Rice with Chicken and Veggies" style="width: 10%; margin-top: 20px;">
+    <p>This recipe was inspired by a friend who reminded me how fun and easy cooking can be. Life got busy, but it's always nice to get back in the kitchen!</p>
+
+    <h2>Ingredients:</h2>
+    <ul>
+        <li>1 cup jasmine rice (rinsed well)</li>
+        <li>1 chicken bouillon cube</li>
+        <li>1 tsp turmeric</li>
+        <li>Frozen onion, red and green bell peppers mix (about 1/2 cup)</li>
+        <li>1 cup frozen green beans, seasoned with salt and steamed</li>
+        <li>4 boneless chicken thighs</li>
+        <li>garlic powder</li>
+        <li>onion powder</li>
+        <li>paprika and I used a <i>Kickin' Chicken seasoning</i></li>
+    </ul>
+
+    <h2>Instructions:</h2>
+    <ul>
+        <li>Rinse the rice well and cook it with the bouillon cube and turmeric in 2 cups of water (use chicken broth for extra flavor)</li>
+        <li>Season and cook the boneless chicken thighs in a skillet over medium heat until golden and cooked through.</li>
+        <li>Sauté frozen onion and bell peppers in the same skillet until soft.</li>
+        <li>Steam the green beans if they’re frozen or sauté them if fresh and sprinkle salt as they cook</li>
+        <li>Once everything is cooked, serve the rice with chicken and veggies on top!</li>
+    </ul>
+
+    <!-- Extra Content (hidden by default) -->
+    <div id="extraContent">
+        <h2>My Cooking Comeback:</h2>
+        <p>This meal reminded me how much I love cooking and how quickly I can get back into the rhythm of it, especially when I have the right ingredients and tools at my disposal. I had forgotten just how exciting cooking can be, as life got busy with work, deadlines, and other distractions. It became too easy to grab something quick or order in instead of cooking at home. But a good friend of mine reminded me of the joy that comes from being in the kitchen. We were talking about how cooking can be an escape from the chaos of daily life, and how you don’t need to be an expert to enjoy it.</p>
+        <p>Inspired by that conversation, I decided to get back into the swing of things—and I’m so glad I did! This meal came together in less than 30 minutes. And what I realized is that cooking doesn’t have to take forever. With some prepped ingredients, like frozen veggies and a pack of chicken thighs, plus a little creativity in the seasoning department, you can make something flavorful and comforting without much effort.</p>
+        <p>Finding that Kickin' Chicken seasoning at TJ Maxx was a game-changer for me. It reminded me not to be afraid to experiment and try new things. The right seasoning can completely transform a dish and make cooking feel fresh and exciting again.</p>
+        <p>Sometimes, cooking can be quick, fun, and creative, even when you're busy. All you need is the right attitude, some inspiration (and maybe a little help from a friend), and you’ll be back in the kitchen before you know it!</p>
+    </div>
+
+    <!-- Read More Button -->
+    <button class="read-more-btn" onclick="toggleContent()">Read More</button>
+
+    <!-- Recipe 2: Sweet Heat Caesar Salad -->
+    <br><br>
+    <img src="IMG3.jpg" alt="Sweet Heat Caesar Salad" style="width: 15%; margin-top: 20px;">
+    <h1>Sweet Heat Caesar Salad</h1>
+    <p>This Sweet Heat Caesar Salad is the perfect quick meal. Inspired by the versatility of Caesar salad kits and the spicy-sweet combo of "Kickin' Chicken" seasoning, it’s both flavorful and easy to make!</p>
+
+    <h2>Ingredients:</h2>
+    <ul>
+        <li>1 Caesar salad kit (includes dressing and croutons)</li>
+        <li>1 head of romaine lettuce (chopped)</li>
+        <li>2 tablespoons of Greek yogurt (to make the dressing creamy)</li>
+        <li>1 rotisserie chicken breast from Costco (cut into strips)</li>
+        <li>Kickin' Chicken seasoning</li>
+        <li>Olive oil spray</li>
+        <li>Crushed red pepper flakes</li>
+        <li>Honey (drizzle as much as your heart desires!)</li>
+    </ul>
+
+    <h2>Instructions:</h2>
+    <ul>
+        <li>Take your Caesar salad kit and mix the seasoning packet with 2 tablespoons of Greek yogurt to create a creamy Caesar dressing.</li>
+        <li>Chop up your romaine lettuce and set aside.</li>
+        <li>Cut the rotisserie chicken breast into strips. Season lightly with Kickin' Chicken seasoning.</li>
+        <li>Spray a pan with olive oil and cook the chicken strips for about 3-4 minutes, until golden and cooked through.</li>
+        <li>Once the chicken is cooked, sprinkle some crushed red pepper flakes for that extra kick.</li>
+        <li>Drizzle as much honey as you like on the chicken, this is where the sweet heat comes into play!</li>
+        <li>Let everything sit for a few minutes, then serve the honey-glazed chicken on top of your Caesar salad.</li>
+        <li>Voila! You’ve got yourself a Sweet Heat Caesar Salad.</li>
+    </ul>
+
+    <br><br>
+    <!-- Footer -->
+    <div class="footer">
+        Tasty Creations ©2025 All Rights Reserved
+    </div>
+
+    <script>
+        // Function to toggle extra content visibility
+        function toggleContent() {
+            var content = document.getElementById("extraContent");
+            var button = document.querySelector(".read-more-btn");
+
+            if (content.style.display === "none" || content.style.display === "") {
+                content.style.display = "block";
+                button.innerHTML = "Read Less";
+            } else {
+                content.style.display = "none";
+                button.innerHTML = "Read More";
+            }
+        }
+    </script>
+</body>
+</html>
+
+
+<br>
+<br>
+<br>
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact - Alexzandria Godinez</title>
+    <style>
+        body {
+            font-family: "Times New Roman", Times, serif;
+            background-color: #FFC0CB;
+            color: black;
+            margin: 0;
+            padding: 0;
+            text-align: center;
+        }
+
+        h1 {
+            font-size: 60px;
+            margin-top: 50px;
+        }
+
+        h2 {
+            font-size: 30px;
+        }
+
+        .contact-info {
+            background-color: white;
+            padding: 20px;
+            margin: 40px auto;
+            border-radius: 8px;
+            width: 80%;
+            max-width: 600px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+        }
+
+        .contact-info p {
+            font-size: 1.2rem;
+            line-height: 1.6;
+            margin: 10px 0;
+        }
+
+        .contact-info a {
+            text-decoration: none;
+            color: black;
+            font-weight: bold;
+        }
+
+        .footer {
+            color: black;
+            padding: 10px;
+            position: fixed;
+            bottom: 0;
+            width: 100%;
+            text-align: center;
+            background-color: #FFC0CB; /* Footer color matches page background */
+        }
+
+        .go-back-btn {
+            margin-top: 20px;
+            padding: 10px 20px;
+            background-color: white;
+            border: none;
+            border-radius: 5px;
+            font-size: 18px;
+        }
+
+        .go-back-btn a {
+            text-decoration: none;
+            color: black;
+        }
+
+        .logo {
+            width: 15%;
+            margin-top: 20px;
+        }
+    </style>
+</head>
+<body>
+
+
+    <!-- Logo -->
+    <div>
+        <img src="header.png.png" alt="Tasty Creations Logo" class="logo">
+    </div>
+
+    <!-- Contact Header -->
+    <h1>Contact</h1>
+
+    <!-- Contact Info Section -->
+    <div class="contact-info">
+        <h2>Alexzandria Godinez</h2>
+        <p>If you'd like to get in touch, feel free to reach out to me through the following:</p>
+        <p>Email: <a href="mailto:alexgodinez488@gmail.com">alexgodinez488@gmail.com</a></p>
+        <p>Phone: <a href="tel:+17868866008">786-886-6008</a></p>
+    </div>
+
+    <!-- Footer -->
+    <div class="footer">
+        Tasty Creations ©2025 All Rights Reserved
+    </div>
+
+</body>
+</html>
+
